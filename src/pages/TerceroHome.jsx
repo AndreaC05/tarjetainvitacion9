@@ -21,7 +21,7 @@ export default function TerceroHome() {
                   <div className="contenido_text">
                     <ContenidoRamo />
                   </div>
-                  <div className="buton_next">
+                  <div className="buton_next" style={{ marginTop: "180px" }}>
                     <Link to="/">
                       <Button></Button>
                     </Link>

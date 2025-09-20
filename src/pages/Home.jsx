@@ -21,7 +21,7 @@ export default function Home() {
           <div className="contenido_text">
             <Contenido />
           </div>
-          <div className="buton_next">
+          <div className="buton_next" style={{ marginTop: "180px" }}>
             <Link to="/flores">
               <Button></Button>
             </Link>
