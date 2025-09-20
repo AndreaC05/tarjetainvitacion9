@@ -1,0 +1,27 @@
+.img_decoracion, .img_decoracion_dos {
+    position: absolute;
+    z-index: 5;
+}
+
+.img_decoracion img {
+    width: 300px;
+    margin-top: -30px;
+    margin-left: -260px;
+    animation: girar 15s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.img_decoracion_dos img {
+    width: 300px;
+    margin-top: 75vh;
+    margin-right: -300px;
+    animation: girar 15s linear infinite;
+}
