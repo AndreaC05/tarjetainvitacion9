@@ -29,7 +29,7 @@ export default function SegundoHome() {
         <div className="contenido_text">
           <ContenidoFlores />
         </div>
-        <div className="buton_next" style={{ marginTop: "180px" }}>
+        <div className="buton_next" style={{ marginTop: "210px" }}>
           <Link to="/ramo">
             <Button></Button>
           </Link>
